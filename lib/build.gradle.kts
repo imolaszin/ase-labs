@@ -1,7 +1,6 @@
 plugins {
     java
     jacoco
-    application
 }
 
 java.toolchain {
@@ -40,6 +39,4 @@ tasks {
     }
 }
 
-application {
-    mainClass = "hu.bme.mit.ase.shingler.similarity.SimilarityApp"
-}
+
